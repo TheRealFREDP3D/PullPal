@@ -68,7 +68,7 @@ def display_header() -> None:
 
         print(centered_header)
     except FileNotFoundError:
-        print("PullPal - GitHub Pull Request Conversation Tool".center(shutil.get_terminal_size().columns))
+        raise
 
 def display_loading_bar(duration=5, width=50) -> None:
     """Display a loading bar that fills over the specified duration."""

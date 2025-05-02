@@ -33,10 +33,12 @@ def main():
         print("Error: GitHub token not provided. Set GITHUB_TOKEN in .env file.")
         return 1
     
-    # Create output directory if it doesn't exist
-    if not os.path.exists(output_dir):
+    try:
         os.makedirs(output_dir)
         print(f"Created output directory: {output_dir}")
+    except OSError as e:
+        print(f"Error creating directory {output_dir}: {e}")
+        return 1
     
     # Fetch and save the PR conversation
     output_path = os.path.join(output_dir, f"{repo}-{pr_number}.json")

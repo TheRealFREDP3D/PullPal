@@ -33,9 +33,12 @@ def main():
         return 1
     
     # Create output directory if it doesn't exist
-    if not os.path.exists(output_dir):
+    try:
         os.makedirs(output_dir)
         print(f"Created output directory: {output_dir}")
+    except OSError as e:
+        print(f"Error creating directory {output_dir}: {e}")
+        return 1
     
     # Get headers for GitHub API requests
     headers = get_headers(github_token)

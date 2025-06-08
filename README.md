@@ -4,7 +4,7 @@ A powerful tool for fetching and saving complete GitHub pull request conversatio
 
 ---  
 
-[![Python Package](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml/badge.svg)](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml)
+[![Python Package](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml/badge.svg)](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml)[![Python Tests](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-tests.yml/badge.svg)](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-tests.yml)
 
 ## Features
 

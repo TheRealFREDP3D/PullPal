@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pullpal"
+version = "0.1.0"
+description = "PullPal - GitHub PR Suggestion Archivist CLI Tool"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [{name = "Frederick Pellerin", email = "fredp3d@proton.me"}]
+dependencies = ["typer[all]", "requests", "rich", "python-dotenv"]
+
+[project.scripts]
+pullpal = "pullpal.main:app"
+
+[project.urls]
+Homepage = "https://github.com/TheRealFREDP3D/pullpal"

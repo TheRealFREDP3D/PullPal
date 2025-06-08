@@ -44,8 +44,8 @@ load_dotenv()
 
 # Configuration
 GITHUB_API_BASE_URL = "https://api.github.com"
-DEFAULT_REPO_OWNER = "octocat"  # Default repository owner
-DEFAULT_REPO_NAME = "hello-world"  # Default repository name
+DEFAULT_REPO_OWNER = "therealfredp3d"  # Default repository owner
+DEFAULT_REPO_NAME = "pullpal"  # Default repository name
 
 def clear_screen() -> None:
     """Clear the terminal screen."""
@@ -70,7 +70,7 @@ def display_header() -> None:
     except FileNotFoundError:
         raise
 
-def display_loading_bar(duration=5, width=50) -> None:
+def display_loading_bar(duration=2, width=80) -> None:
     """Display a loading bar that fills over the specified duration."""
     terminal_width = shutil.get_terminal_size().columns
 

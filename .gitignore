@@ -126,3 +126,4 @@ pr-conversation/
 .sourcetrail/PullPal.srctrldb
 .sourcetrail/PullPal.srctrlprj
 /.history
+/PullPal.code-workspace

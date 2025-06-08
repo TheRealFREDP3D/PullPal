@@ -2,6 +2,10 @@
 
 A powerful tool for fetching and saving complete GitHub pull request conversations, including PR details, issue comments, review comments, and reviews.
 
+---  
+
+[![Python Package](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml/badge.svg)](https://github.com/TheRealFREDP3D/PullPal/actions/workflows/python-package.yml)
+
 ## Features
 
 - Fetch a single PR, multiple specific PRs, or the latest N PRs
